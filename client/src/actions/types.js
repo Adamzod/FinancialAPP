@@ -1,0 +1,48 @@
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGOUT = 'LOGOUT';
+
+export const GET_DASHBOARD_DATA = 'GET_DASHBOARD_DATA';
+export const DASHBOARD_ERROR = 'DASHBOARD_ERROR';
+
+
+// Transactions
+export const GET_TRANSACTIONS = 'GET_TRANSACTIONS';
+export const GET_TRANSACTION = 'GET_TRANSACTION';
+export const ADD_TRANSACTION = 'ADD_TRANSACTION';
+export const UPDATE_TRANSACTION = 'UPDATE_TRANSACTION';
+export const DELETE_TRANSACTION = 'DELETE_TRANSACTION';
+export const TRANSACTION_ERROR = 'TRANSACTION_ERROR';
+
+// Budgets
+export const GET_BUDGETS = 'GET_BUDGETS';
+export const GET_BUDGET = 'GET_BUDGET';
+export const ADD_BUDGET = 'ADD_BUDGET';
+export const UPDATE_BUDGET = 'UPDATE_BUDGET';
+export const DELETE_BUDGET = 'DELETE_BUDGET';
+export const BUDGET_ERROR = 'BUDGET_ERROR';
+
+// Goals
+export const GET_GOALS = 'GET_GOALS';
+export const GET_GOAL = 'GET_GOAL';
+export const ADD_GOAL = 'ADD_GOAL';
+export const UPDATE_GOAL = 'UPDATE_GOAL';
+export const DELETE_GOAL = 'DELETE_GOAL';
+export const GOAL_ERROR = 'GOAL_ERROR';
+
+// Reports
+export const GET_REPORT_DATA = 'GET_REPORT_DATA';
+export const REPORT_ERROR = 'REPORT_ERROR';
+export const GET_INCOME_EXPENSE_SUMMARY = 'GET_INCOME_EXPENSE_SUMMARY';
+export const GET_EXPENSES_BY_CATEGORY = 'GET_EXPENSES_BY_CATEGORY';
+export const GET_SPENDING_OVER_TIME = 'GET_SPENDING_OVER_TIME';
+export const GET_BUDGET_ADHERENCE = 'GET_BUDGET_ADHERENCE';
+
+//category
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+export const CATEGORY_ERROR = 'CATEGORY_ERROR';
+export const ADD_CATEGORY = 'ADD_CATEGORY';
